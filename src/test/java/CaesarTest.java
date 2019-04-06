@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 
 public class CaesarTest {
   @Test
-  public void Caeser_testEncryption(){
+  public void Caesar_testEncryption(){
     Caesar caesar = new Caesar();
     assertEquals("dbs", caesar.encrypt("car", 1));
   }
