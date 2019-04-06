@@ -5,6 +5,6 @@ public class CaesarTest {
   @Test
   public void Caeser_testEncryption(){
     Caesar caesar = new Caesar();
-    assertEquals("car", caesar.encrypt("dbs", 1));
+    assertEquals("dbs", caesar.encrypt("car", 1));
   }
 }
