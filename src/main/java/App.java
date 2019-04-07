@@ -27,7 +27,7 @@ public class App{
             String input = myObj.next();
             System.out.println("Enter key to shift letters");
             int move = myObj.nextInt();
-            System.out.println(ciph.decrypt(input, move)); 
+            System.out.println(ciph.decrypt(input, move));
         }
         else {
             System.out.println("Invalid choice");
